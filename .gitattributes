@@ -1,0 +1,2 @@
+# Git LFS is not used; the large model.safetensors artifact is kept local-only
+# and excluded via .gitignore. Re-enable LFS here if it should be shared later.

@@ -1,0 +1,73 @@
+{
+  "boundary_source": "source_corpus_exact_match_v1",
+  "base_model": "distilbert-base-uncased",
+  "labels": [
+    "O",
+    "B-INTENT",
+    "I-INTENT"
+  ],
+  "seed": 20260919,
+  "device": "cuda",
+  "wall_clock_seconds": 1690.1108701000048,
+  "best_metric": 0.999497150519611,
+  "best_checkpoint": "J:\\Hackathons\\samsung_prism_hack\\bert_intent_tagger\\model\\checkpoints\\checkpoint-17514",
+  "log_history": [
+    {
+      "loss": 0.0267,
+      "grad_norm": 0.0007968900608830154,
+      "learning_rate": 2.22287780738485e-05,
+      "epoch": 1.0,
+      "step": 5838
+    },
+    {
+      "eval_loss": 0.0017450656741857529,
+      "eval_bio_f1": 0.996483001172333,
+      "eval_runtime": 2.8735,
+      "eval_samples_per_second": 1013.734,
+      "eval_steps_per_second": 63.685,
+      "epoch": 1.0,
+      "step": 5838
+    },
+    {
+      "loss": 0.0004,
+      "grad_norm": 0.0002924614818766713,
+      "learning_rate": 1.1121050628092883e-05,
+      "epoch": 2.0,
+      "step": 11676
+    },
+    {
+      "eval_loss": 0.0008627708884887397,
+      "eval_bio_f1": 0.9992457889885192,
+      "eval_runtime": 2.995,
+      "eval_samples_per_second": 972.616,
+      "eval_steps_per_second": 61.102,
+      "epoch": 2.0,
+      "step": 11676
+    },
+    {
+      "loss": 0.0002,
+      "grad_norm": 0.0001301216980209574,
+      "learning_rate": 1.3323182337266846e-08,
+      "epoch": 3.0,
+      "step": 17514
+    },
+    {
+      "eval_loss": 0.00037077427259646356,
+      "eval_bio_f1": 0.999497150519611,
+      "eval_runtime": 2.9547,
+      "eval_samples_per_second": 985.903,
+      "eval_steps_per_second": 61.936,
+      "epoch": 3.0,
+      "step": 17514
+    },
+    {
+      "train_runtime": 1687.2959,
+      "train_samples_per_second": 83.027,
+      "train_steps_per_second": 10.38,
+      "total_flos": 1383571680915150.0,
+      "train_loss": 0.009077099495531966,
+      "epoch": 3.0,
+      "step": 17514
+    }
+  ]
+}

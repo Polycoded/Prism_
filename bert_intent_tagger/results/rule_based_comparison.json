@@ -1,0 +1,6 @@
+{
+  "boundary_source": "source_corpus_exact_match_v1",
+  "examples": 2959,
+  "rule_based_exact_accuracy": 0.2767826968570463,
+  "bert_exact_accuracy": 0.9979722879351132
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "chunk_id": "CarePlus §Purchase.1",
+    "doc_id": "CarePlus",
+    "section": "Purchase.1",
+    "text": "The optional CarePlus plan may be purchased within 30 days of a LumaHome device purchase.",
+    "metadata": {
+      "entity": "CarePlus",
+      "title": "CarePlus plan support",
+      "source": "CarePlus.md",
+      "source_hash": "37091d7f5cbeaa232c701482614b6012abf5e583bdf2e0a1db2004baf9004d80",
+      "start": "106",
+      "end": "195"
+    }
+  },
+  {
+    "chunk_id": "CarePlus §Coverage.1",
+    "doc_id": "CarePlus",
+    "section": "Coverage.1",
+    "text": "CarePlus adds accidental-damage coverage for 24 months after plan activation.",
+    "metadata": {
+      "entity": "CarePlus",
+      "title": "CarePlus plan support",
+      "source": "CarePlus.md",
+      "source_hash": "37091d7f5cbeaa232c701482614b6012abf5e583bdf2e0a1db2004baf9004d80",
+      "start": "212",
+      "end": "289"
+    }
+  },
+  {
+    "chunk_id": "CarePlus §Cancellation.1",
+    "doc_id": "CarePlus",
+    "section": "Cancellation.1",
+    "text": "Cancel CarePlus within 14 days of activation for a full plan refund when no claim was made.",
+    "metadata": {
+      "entity": "CarePlus",
+      "title": "CarePlus plan support",
+      "source": "CarePlus.md",
+      "source_hash": "37091d7f5cbeaa232c701482614b6012abf5e583bdf2e0a1db2004baf9004d80",
+      "start": "310",
+      "end": "401"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A1 §Warranty.1",
+    "doc_id": "LumaAir_A1",
+    "section": "Warranty.1",
+    "text": "The LumaAir A1 has a 24-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaAir A1",
+      "title": "LumaAir A1 support",
+      "source": "LumaAir_A1.md",
+      "source_hash": "8f1cb0a44b58201708f1a2ed39b781bdfcab4bf81b9c266c53d29dbb6371fbff",
+      "start": "103",
+      "end": "187"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A1 §Maintenance.1",
+    "doc_id": "LumaAir_A1",
+    "section": "Maintenance.1",
+    "text": "Replace the LumaAir A1 PureAir filter after 180 days of use.",
+    "metadata": {
+      "entity": "LumaAir A1",
+      "title": "LumaAir A1 support",
+      "source": "LumaAir_A1.md",
+      "source_hash": "8f1cb0a44b58201708f1a2ed39b781bdfcab4bf81b9c266c53d29dbb6371fbff",
+      "start": "207",
+      "end": "267"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A1 §Setup.1",
+    "doc_id": "LumaAir_A1",
+    "section": "Setup.1",
+    "text": "To reset a LumaAir A1 filter reminder, hold the Filter button for five seconds.",
+    "metadata": {
+      "entity": "LumaAir A1",
+      "title": "LumaAir A1 support",
+      "source": "LumaAir_A1.md",
+      "source_hash": "8f1cb0a44b58201708f1a2ed39b781bdfcab4bf81b9c266c53d29dbb6371fbff",
+      "start": "281",
+      "end": "360"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A2 §Warranty.1",
+    "doc_id": "LumaAir_A2",
+    "section": "Warranty.1",
+    "text": "The LumaAir A2 has a 36-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaAir A2",
+      "title": "LumaAir A2 support",
+      "source": "LumaAir_A2.md",
+      "source_hash": "08181e3790c41d292fe9bf7e2b8682967a4fa5a68f1b07e40ccbaf66ca89a6ee",
+      "start": "103",
+      "end": "187"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A2 §Maintenance.1",
+    "doc_id": "LumaAir_A2",
+    "section": "Maintenance.1",
+    "text": "Replace the LumaAir A2 PureAir filter after 365 days of use.",
+    "metadata": {
+      "entity": "LumaAir A2",
+      "title": "LumaAir A2 support",
+      "source": "LumaAir_A2.md",
+      "source_hash": "08181e3790c41d292fe9bf7e2b8682967a4fa5a68f1b07e40ccbaf66ca89a6ee",
+      "start": "207",
+      "end": "267"
+    }
+  },
+  {
+    "chunk_id": "LumaAir_A2 §Setup.1",
+    "doc_id": "LumaAir_A2",
+    "section": "Setup.1",
+    "text": "To connect a LumaAir A2, use a 2.4 GHz Wi-Fi network during setup.",
+    "metadata": {
+      "entity": "LumaAir A2",
+      "title": "LumaAir A2 support",
+      "source": "LumaAir_A2.md",
+      "source_hash": "08181e3790c41d292fe9bf7e2b8682967a4fa5a68f1b07e40ccbaf66ca89a6ee",
+      "start": "281",
+      "end": "347"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C1 §Warranty.1",
+    "doc_id": "LumaCam_C1",
+    "section": "Warranty.1",
+    "text": "The LumaCam C1 has a 24-month limited warranty beginning on its retail purchase date.",
+    "metadata": {
+      "entity": "LumaCam C1",
+      "title": "LumaCam C1 support",
+      "source": "LumaCam_C1.md",
+      "source_hash": "09fa30e6007359ddc9b07f900d6e5eb8ab8311e00e90ff7e8b7b202a5a1f2df7",
+      "start": "103",
+      "end": "188"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C1 §Cloud.1",
+    "doc_id": "LumaCam_C1",
+    "section": "Cloud.1",
+    "text": "SecureCloud Basic keeps a rolling 30-day video history for a LumaCam C1.",
+    "metadata": {
+      "entity": "LumaCam C1",
+      "title": "LumaCam C1 support",
+      "source": "LumaCam_C1.md",
+      "source_hash": "09fa30e6007359ddc9b07f900d6e5eb8ab8311e00e90ff7e8b7b202a5a1f2df7",
+      "start": "202",
+      "end": "274"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C1 §Cloud.2",
+    "doc_id": "LumaCam_C1",
+    "section": "Cloud.2",
+    "text": "A new LumaCam C1 includes 90 days of SecureCloud Plus at no charge.",
+    "metadata": {
+      "entity": "LumaCam C1",
+      "title": "LumaCam C1 support",
+      "source": "LumaCam_C1.md",
+      "source_hash": "09fa30e6007359ddc9b07f900d6e5eb8ab8311e00e90ff7e8b7b202a5a1f2df7",
+      "start": "288",
+      "end": "355"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C2 §Warranty.1",
+    "doc_id": "LumaCam_C2",
+    "section": "Warranty.1",
+    "text": "The LumaCam C2 has a 36-month limited warranty beginning on its retail purchase date.",
+    "metadata": {
+      "entity": "LumaCam C2",
+      "title": "LumaCam C2 support",
+      "source": "LumaCam_C2.md",
+      "source_hash": "b6579542a363e7cebd6af4685623e03428eccdf7420434adc028b1e0875d6ca9",
+      "start": "103",
+      "end": "188"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C2 §Cloud.1",
+    "doc_id": "LumaCam_C2",
+    "section": "Cloud.1",
+    "text": "SecureCloud Basic keeps a rolling 60-day video history for a LumaCam C2.",
+    "metadata": {
+      "entity": "LumaCam C2",
+      "title": "LumaCam C2 support",
+      "source": "LumaCam_C2.md",
+      "source_hash": "b6579542a363e7cebd6af4685623e03428eccdf7420434adc028b1e0875d6ca9",
+      "start": "202",
+      "end": "274"
+    }
+  },
+  {
+    "chunk_id": "LumaCam_C2 §Privacy.1",
+    "doc_id": "LumaCam_C2",
+    "section": "Privacy.1",
+    "text": "LumaCam C2 activity-zone analysis is processed on the device before optional footage upload.",
+    "metadata": {
+      "entity": "LumaCam C2",
+      "title": "LumaCam C2 support",
+      "source": "LumaCam_C2.md",
+      "source_hash": "b6579542a363e7cebd6af4685623e03428eccdf7420434adc028b1e0875d6ca9",
+      "start": "290",
+      "end": "382"
+    }
+  },
+  {
+    "chunk_id": "LumaFridge_F1 §Warranty.1",
+    "doc_id": "LumaFridge_F1",
+    "section": "Warranty.1",
+    "text": "The LumaFridge F1 has a 24-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaFridge F1",
+      "title": "LumaFridge F1 support",
+      "source": "LumaFridge_F1.md",
+      "source_hash": "028d2d3c2e3c5f3a79a01fb94d208fec7e9c633ce26a8f1c8738083352c5a987",
+      "start": "106",
+      "end": "193"
+    }
+  },
+  {
+    "chunk_id": "LumaFridge_F1 §Setup.1",
+    "doc_id": "LumaFridge_F1",
+    "section": "Setup.1",
+    "text": "Discard the first two batches of ice from a newly connected LumaFridge F1.",
+    "metadata": {
+      "entity": "LumaFridge F1",
+      "title": "LumaFridge F1 support",
+      "source": "LumaFridge_F1.md",
+      "source_hash": "028d2d3c2e3c5f3a79a01fb94d208fec7e9c633ce26a8f1c8738083352c5a987",
+      "start": "207",
+      "end": "281"
+    }
+  },
+  {
+    "chunk_id": "LumaFridge_F1 §Modes.1",
+    "doc_id": "LumaFridge_F1",
+    "section": "Modes.1",
+    "text": "LumaFridge F1 Vacation Mode keeps the freezer operating while reducing refrigerator cooling.",
+    "metadata": {
+      "entity": "LumaFridge F1",
+      "title": "LumaFridge F1 support",
+      "source": "LumaFridge_F1.md",
+      "source_hash": "028d2d3c2e3c5f3a79a01fb94d208fec7e9c633ce26a8f1c8738083352c5a987",
+      "start": "295",
+      "end": "387"
+    }
+  },
+  {
+    "chunk_id": "LumaHub_H1 §Warranty.1",
+    "doc_id": "LumaHub_H1",
+    "section": "Warranty.1",
+    "text": "The LumaHub H1 has a 24-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaHub H1",
+      "title": "LumaHub H1 support",
+      "source": "LumaHub_H1.md",
+      "source_hash": "bca817d5d99b19358b8306b616368159c7f6dcdfbe7d980f2a020be847354a4c",
+      "start": "103",
+      "end": "187"
+    }
+  },
+  {
+    "chunk_id": "LumaHub_H1 §Profiles.1",
+    "doc_id": "LumaHub_H1",
+    "section": "Profiles.1",
+    "text": "A LumaHub H1 child profile cannot change household security settings.",
+    "metadata": {
+      "entity": "LumaHub H1",
+      "title": "LumaHub H1 support",
+      "source": "LumaHub_H1.md",
+      "source_hash": "bca817d5d99b19358b8306b616368159c7f6dcdfbe7d980f2a020be847354a4c",
+      "start": "204",
+      "end": "273"
+    }
+  },
+  {
+    "chunk_id": "LumaHub_H1 §Setup.1",
+    "doc_id": "LumaHub_H1",
+    "section": "Setup.1",
+    "text": "LumaHub H1 requires the LumaHome app version 5.2 or later for setup.",
+    "metadata": {
+      "entity": "LumaHub H1",
+      "title": "LumaHub H1 support",
+      "source": "LumaHub_H1.md",
+      "source_hash": "bca817d5d99b19358b8306b616368159c7f6dcdfbe7d980f2a020be847354a4c",
+      "start": "287",
+      "end": "355"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S1 §Warranty.1",
+    "doc_id": "LumaPad_S1",
+    "section": "Warranty.1",
+    "text": "The LumaPad S1 has a 24-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaPad S1",
+      "title": "LumaPad S1 support",
+      "source": "LumaPad_S1.md",
+      "source_hash": "20c11fef9d335dc3bc34e939cad5d363163b9331e2f445da567cb418aa7cb891",
+      "start": "103",
+      "end": "187"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S1 §Warranty.2",
+    "doc_id": "LumaPad_S1",
+    "section": "Warranty.2",
+    "text": "Drops, liquid damage, and cosmetic scratches are excluded from the LumaPad S1 limited warranty.",
+    "metadata": {
+      "entity": "LumaPad S1",
+      "title": "LumaPad S1 support",
+      "source": "LumaPad_S1.md",
+      "source_hash": "20c11fef9d335dc3bc34e939cad5d363163b9331e2f445da567cb418aa7cb891",
+      "start": "204",
+      "end": "299"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S1 §Repair.1",
+    "doc_id": "LumaPad_S1",
+    "section": "Repair.1",
+    "text": "A dated purchase receipt and the LumaPad S1 serial number are required to open a warranty repair.",
+    "metadata": {
+      "entity": "LumaPad S1",
+      "title": "LumaPad S1 support",
+      "source": "LumaPad_S1.md",
+      "source_hash": "20c11fef9d335dc3bc34e939cad5d363163b9331e2f445da567cb418aa7cb891",
+      "start": "314",
+      "end": "411"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S2 §Warranty.1",
+    "doc_id": "LumaPad_S2",
+    "section": "Warranty.1",
+    "text": "The LumaPad S2 has a 36-month limited warranty starting on the retail purchase date.",
+    "metadata": {
+      "entity": "LumaPad S2",
+      "title": "LumaPad S2 support",
+      "source": "LumaPad_S2.md",
+      "source_hash": "a8ef89b5f70ff1767b996c2b5806f5e55ed1023479f92f1705bb2d10aa1ef30c",
+      "start": "103",
+      "end": "187"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S2 §Battery.1",
+    "doc_id": "LumaPad_S2",
+    "section": "Battery.1",
+    "text": "Battery capacity on the LumaPad S2 is covered for the first 12 months only.",
+    "metadata": {
+      "entity": "LumaPad S2",
+      "title": "LumaPad S2 support",
+      "source": "LumaPad_S2.md",
+      "source_hash": "a8ef89b5f70ff1767b996c2b5806f5e55ed1023479f92f1705bb2d10aa1ef30c",
+      "start": "203",
+      "end": "278"
+    }
+  },
+  {
+    "chunk_id": "LumaPad_S2 §Repair.1",
+    "doc_id": "LumaPad_S2",
+    "section": "Repair.1",
+    "text": "LumaPad S2 warranty repairs must be completed by a certified LumaHome service center.",
+    "metadata": {
+      "entity": "LumaPad S2",
+      "title": "LumaPad S2 support",
+      "source": "LumaPad_S2.md",
+      "source_hash": "a8ef89b5f70ff1767b996c2b5806f5e55ed1023479f92f1705bb2d10aa1ef30c",
+      "start": "293",
+      "end": "378"
+    }
+  },
+  {
+    "chunk_id": "LumaWash_W1 §Warranty.1",
+    "doc_id": "LumaWash_W1",
+    "section": "Warranty.1",
+    "text": "The LumaWash W1 appliance has a 24-month warranty, while its motor has a 60-month warranty.",
+    "metadata": {
+      "entity": "LumaWash W1",
+      "title": "LumaWash W1 support",
+      "source": "LumaWash_W1.md",
+      "source_hash": "5172bcfa893bd30b8564cacedbe7a1518cd06adc6c800cebbc3aab613970772c",
+      "start": "104",
+      "end": "195"
+    }
+  },
+  {
+    "chunk_id": "LumaWash_W1 §Maintenance.1",
+    "doc_id": "LumaWash_W1",
+    "section": "Maintenance.1",
+    "text": "Inspect the LumaWash W1 inlet hose each year and replace it every five years.",
+    "metadata": {
+      "entity": "LumaWash W1",
+      "title": "LumaWash W1 support",
+      "source": "LumaWash_W1.md",
+      "source_hash": "5172bcfa893bd30b8564cacedbe7a1518cd06adc6c800cebbc3aab613970772c",
+      "start": "215",
+      "end": "292"
+    }
+  },
+  {
+    "chunk_id": "LumaWash_W1 §Setup.1",
+    "doc_id": "LumaWash_W1",
+    "section": "Setup.1",
+    "text": "A LumaWash W1 must be installed within 90 days of delivery for free installation support.",
+    "metadata": {
+      "entity": "LumaWash W1",
+      "title": "LumaWash W1 support",
+      "source": "LumaWash_W1.md",
+      "source_hash": "5172bcfa893bd30b8564cacedbe7a1518cd06adc6c800cebbc3aab613970772c",
+      "start": "306",
+      "end": "395"
+    }
+  }
+]

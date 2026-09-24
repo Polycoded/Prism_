@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citefrontier"
+version = "0.1.0"
+description = "Corpus retrieval and fusion reference components (CiteFrontier Module 02)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+retrieval = [
+  "rank-bm25>=0.2,<1",
+  "sentence-transformers>=5,<6",
+]
+
+[tool.setuptools.packages.find]
+include = ["citefrontier*"]

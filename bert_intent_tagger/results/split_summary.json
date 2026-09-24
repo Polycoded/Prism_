@@ -1,0 +1,27 @@
+{
+  "boundary_source": "source_corpus_exact_match_v1",
+  "train": {
+    "examples": 46697,
+    "num_intents": {
+      "2": 27403,
+      "3": 10501,
+      "1": 8793
+    }
+  },
+  "dev": {
+    "examples": 2913,
+    "num_intents": {
+      "2": 1676,
+      "1": 549,
+      "3": 688
+    }
+  },
+  "test": {
+    "examples": 2959,
+    "num_intents": {
+      "3": 680,
+      "1": 588,
+      "2": 1691
+    }
+  }
+}

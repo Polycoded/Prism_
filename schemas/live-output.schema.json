@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CiteFrontier live update (local protocol, not organizer schema)",
+  "type": "object",
+  "required": [
+    "type",
+    "session_id",
+    "event_id",
+    "turn_id",
+    "decision",
+    "reason",
+    "sub_queries",
+    "claims",
+    "answer",
+    "answer_version",
+    "changed_claim_ids",
+    "citations",
+    "uncertainty",
+    "clarification",
+    "tentative_count",
+    "retrieval_events",
+    "latency_ms",
+    "stats",
+    "history",
+    "corpus_hash",
+    "presentation_items"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "turn_id": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "sub_queries": {
+      "type": "array"
+    },
+    "claims": {
+      "type": "array"
+    },
+    "answer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "answer_version": {
+      "type": "integer"
+    },
+    "changed_claim_ids": {
+      "type": "array"
+    },
+    "citations": {
+      "type": "array"
+    },
+    "uncertainty": {
+      "type": "array"
+    },
+    "clarification": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tentative_count": {
+      "type": "integer"
+    },
+    "retrieval_events": {
+      "type": "array"
+    },
+    "latency_ms": {
+      "type": "number"
+    },
+    "stats": {
+      "type": "object"
+    },
+    "history": {
+      "type": "array"
+    },
+    "corpus_hash": {
+      "type": "string"
+    },
+    "presentation_items": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

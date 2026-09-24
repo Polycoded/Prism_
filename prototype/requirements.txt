@@ -1,0 +1,14 @@
+# Dependencies needed to run the retained CiteFrontier Modules 01-02 code.
+#
+# - Module 01 (Multi-Intent Decomposer): torch + transformers are required by
+#   bert_decomposition.py and are declared in bert_intent_tagger/requirements.txt.
+#   spaCy is optional: decomposition.py runs in parser='rules' mode without it;
+#   install spaCy + en_core_web_sm for parser='spacy'.
+# - Module 02 (Corpus Retrieval and Fusion): rank-bm25 + sentence-transformers
+#   are required only by the `dense` backend (prototype/search.py,
+#   citefrontier/retrieval.py, prototype/prepare_models.py). The lightweight
+#   backend needs nothing beyond the Python standard library.
+spacy==3.8.7
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+rank-bm25==0.2.2
+sentence-transformers==5.7.0

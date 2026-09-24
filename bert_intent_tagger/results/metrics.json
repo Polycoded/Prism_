@@ -1,0 +1,23 @@
+{
+  "boundary_source": "source_corpus_exact_match_v1",
+  "token_bio_f1": 0.9986688851913478,
+  "exact_intent_set_accuracy": 0.9979722879351132,
+  "examples": 2959,
+  "by_num_intents": {
+    "3": {
+      "exact_accuracy": 0.9985294117647059,
+      "correct": 679,
+      "examples": 680
+    },
+    "1": {
+      "exact_accuracy": 0.9965986394557823,
+      "correct": 586,
+      "examples": 588
+    },
+    "2": {
+      "exact_accuracy": 0.9982259018332348,
+      "correct": 1688,
+      "examples": 1691
+    }
+  }
+}

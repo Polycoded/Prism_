@@ -1,0 +1,409 @@
+{
+  "dataset": "venue_domain_curated_synthetic_v1",
+  "examples": 200,
+  "annotation_status": "pending_human_review",
+  "promotion_eligible": false,
+  "bert": {
+    "exact": 182,
+    "rate": 0.91,
+    "accepted": 182,
+    "fallback": 18,
+    "accepted_precision": 1.0,
+    "threshold": 0.9,
+    "warm_latency_ms": {
+      "p50": 25.12,
+      "p95": 35.43,
+      "cold_first": 6341.67
+    }
+  },
+  "rules": {
+    "exact": 115,
+    "rate": 0.575
+  },
+  "auto": {
+    "exact": 177,
+    "rate": 0.885,
+    "improvement_over_rules_percentage_points": 31.0
+  },
+  "errors": [
+    {
+      "id": "venue-elliptical-002",
+      "text": "I need Venue B the cancellation policy, and parking availability",
+      "gold": [
+        [
+          0,
+          38
+        ],
+        [
+          44,
+          64
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-004",
+      "text": "I need Orchid Center parking availability, and closing time",
+      "gold": [
+        [
+          0,
+          41
+        ],
+        [
+          47,
+          59
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          59
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-005",
+      "text": "I need Venue A the required deposit, and wheelchair access",
+      "gold": [
+        [
+          0,
+          35
+        ],
+        [
+          41,
+          58
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-006",
+      "text": "I need Venue B closing time, and included projectors",
+      "gold": [
+        [
+          0,
+          27
+        ],
+        [
+          33,
+          52
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-007",
+      "text": "I need Riverside Hall wheelchair access, and outside food rules",
+      "gold": [
+        [
+          0,
+          39
+        ],
+        [
+          45,
+          63
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          63
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-009",
+      "text": "I need Venue A outside food rules, and capacity for 300 people",
+      "gold": [
+        [
+          0,
+          33
+        ],
+        [
+          39,
+          62
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          62
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-012",
+      "text": "I need Orchid Center the cancellation policy, and parking availability",
+      "gold": [
+        [
+          0,
+          44
+        ],
+        [
+          50,
+          70
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-014",
+      "text": "I need Venue B parking availability, and closing time",
+      "gold": [
+        [
+          0,
+          35
+        ],
+        [
+          41,
+          53
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          53
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-015",
+      "text": "I need Riverside Hall the required deposit, and wheelchair access",
+      "gold": [
+        [
+          0,
+          42
+        ],
+        [
+          48,
+          65
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          65
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-016",
+      "text": "I need Orchid Center closing time, and included projectors",
+      "gold": [
+        [
+          0,
+          33
+        ],
+        [
+          39,
+          58
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-017",
+      "text": "I need Venue A wheelchair access, and outside food rules",
+      "gold": [
+        [
+          0,
+          32
+        ],
+        [
+          38,
+          56
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          56
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-019",
+      "text": "I need Riverside Hall outside food rules, and capacity for 300 people",
+      "gold": [
+        [
+          0,
+          40
+        ],
+        [
+          46,
+          69
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          69
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-022",
+      "text": "I need Venue B the cancellation policy, and parking availability",
+      "gold": [
+        [
+          0,
+          38
+        ],
+        [
+          44,
+          64
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-024",
+      "text": "I need Orchid Center parking availability, and closing time",
+      "gold": [
+        [
+          0,
+          41
+        ],
+        [
+          47,
+          59
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          59
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-025",
+      "text": "I need Venue A the required deposit, and wheelchair access",
+      "gold": [
+        [
+          0,
+          35
+        ],
+        [
+          41,
+          58
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-026",
+      "text": "I need Venue B closing time, and included projectors",
+      "gold": [
+        [
+          0,
+          27
+        ],
+        [
+          33,
+          52
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-027",
+      "text": "I need Riverside Hall wheelchair access, and outside food rules",
+      "gold": [
+        [
+          0,
+          39
+        ],
+        [
+          45,
+          63
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          63
+        ]
+      ]
+    },
+    {
+      "id": "venue-elliptical-029",
+      "text": "I need Venue A outside food rules, and capacity for 300 people",
+      "gold": [
+        [
+          0,
+          33
+        ],
+        [
+          39,
+          62
+        ]
+      ],
+      "bert": [],
+      "rules": [
+        [
+          0,
+          62
+        ]
+      ]
+    }
+  ],
+  "decision": "Shadow integration only until the review set is independently human-approved and corrected."
+}

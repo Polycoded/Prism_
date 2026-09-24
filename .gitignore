@@ -1,0 +1,76 @@
+# Python environments and generated package metadata
+.venv/
+.demo-venv/
+**/.venv*/
+*.egg-info/
+
+# Python, test, type-checker, and notebook caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editors and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build, packaging, and temporary outputs
+build/
+dist/
+tmp/
+tmp_*/
+*.zip
+*.tar
+*.tar.gz
+*.whl
+
+# Generated media and recordings
+*.mp4
+*.webm
+*.mov
+*.avi
+prototype/demo/showcase/
+prototype/reports/recordings/
+
+# External research corpora and local downloads
+external/
+data/raw/
+data/converted/
+bert_intent_tagger/data/raw/
+bert_intent_tagger/data/converted/
+bert_intent_tagger/data/splits/
+
+# Training runs: retain only the promoted checkpoint under checkpoints/best.
+# The large model.safetensors artifact (264 MB) is kept local-only and is not
+# pushed; re-enable tracking via .gitattributes when it should be shared.
+bert_intent_tagger/model/checkpoints/checkpoint-*/
+bert_intent_tagger/model/checkpoints/best/model.safetensors
+bert_intent_tagger/model/checkpoints/best/training_args.bin
+bert_intent_tagger/model/checkpoints/best/trainer_state.json
+bert_intent_tagger/model/checkpoints/best/optimizer.pt
+bert_intent_tagger/model/checkpoints/best/scheduler.pt
+bert_intent_tagger/model/checkpoints/best/rng_state.pth
+
+# Local logs and scratch evaluation output
+logs/
+*.log
+
+# Generated QA and audit records
+prototype/reports/
