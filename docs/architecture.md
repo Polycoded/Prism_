@@ -97,7 +97,7 @@ repo root/
     prepare_models.py         Module 02 reference (shipped)
     corpus.json / corpus/sources / corpus-manifest / models-manifest  Module 02
     transcript.py             Module 03 (BUILD)
-    controller.py             Module 04 (BUILD)
+    controller.py             Module 04 reference (shipped)
     session.py                Module 05 (BUILD)
     runtime.py                Module 06 (BUILD)
     server.py                 Module 07 (BUILD)
@@ -110,6 +110,7 @@ repo root/
     tests/                    Module acceptance tests (BUILD)
   citefrontier/
     models.py, text.py, retrieval.py   Module 02 reference (shipped)
+    controller.py                       Module 04 reference (shipped)
   schemas/                    Contracts (shipped, JSON Schema)
   tests/                      acceptance tests for modules 04–07 (BUILD)
   docs/                       this blueprint set

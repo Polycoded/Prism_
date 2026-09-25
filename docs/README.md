@@ -17,7 +17,7 @@ behavior described in `architecture.md`.
 | `module-01-multi-intent-decomposer.md` | Multi-Intent Decomposer (BERT tagger + rules/spaCy splitter + guarded hybrid) | **FIXED — reproduce exactly** | `bert_intent_tagger/`, `prototype/decomposition.py`, `prototype/bert_decomposition.py` |
 | `module-02-corpus-retrieval-fusion.md` | Corpus constructor + ingestion, retrieval, fusion, reranking | **FIXED — reproduce exactly** | `prototype/search.py`, `prototype/ingest.py`, `prototype/prepare_models.py`, `prototype/corpus*`, `citefrontier/{models,text,retrieval}.py` |
 | `module-03-transcript-normalization.md` | Disfluency + correction normalization of inbound text | BUILD | none |
-| `module-04-retrieval-controller.md` | Retrieval timing policy (WAIT/PROVISIONAL/COMMIT/SUPPRESS) | BUILD | none |
+| `module-04-retrieval-controller.md` | Retrieval timing policy (WAIT/PROVISIONAL/COMMIT/SUPPRESS) | **SHIPPED — reference added** | `citefrontier/controller.py`, `prototype/controller.py` |
 | `module-05-session-synthesis.md` | Session state, claims, answer versioning, delta refinement, dialogue context, abstention | BUILD | none |
 | `module-06-live-runtime.md` | Revision-safe orchestration: event validation, cache, staleness, claim commit | BUILD | none |
 | `module-07-websocket-server.md` | FastAPI HTTP API + WebSocket `/ws/stream` delivery | BUILD | none |
@@ -29,7 +29,10 @@ Every BUILD doc is self-contained: purpose, inputs/outputs, data formats,
 required file layout, a step-by-step build procedure with exact class/function
 signatures, the exact constants and algorithms, interface contracts, and
 acceptance criteria. `architecture.md` and `interfaces.md` tie the modules
-together.
+together. As build modules are implemented, their reference code is added to
+the repository and the status column above flips from BUILD to
+**SHIPPED — reference added** (the blueprint remains the specification of
+record).
 
 ## Build order
 

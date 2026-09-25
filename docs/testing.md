@@ -100,11 +100,12 @@ cache only.
 
 ## 5. Suggested test layout
 
-- `prototype/tests/` — `test_transcript.py` (03), `test_controller.py` (04),
-  `test_session.py` (05), `test_live.py` (06 + API), `test_upload.py` (08),
+- `prototype/tests/` — `test_transcript.py` (03), `test_session.py` (05),
+  `test_live.py` (06 + API), `test_upload.py` (08),
   `test_benchmark.py` (08), `test_bert_decomposition.py` (01 integration with
   a fake detector).
-- `tests/` — `test_validation.py` (05 invariants), `test_grounding.py` (05),
+- `tests/` — `test_controller.py` (04, **shipped**),
+  `test_validation.py` (05 invariants), `test_grounding.py` (05),
   `test_ingest.py` (02), `test_evaluation.py` (04/05 replay proxies).
 - Run: `python -m unittest discover -s prototype/tests -v` and
   `python -m unittest discover -s tests -v`.

@@ -14,7 +14,8 @@ module as a build blueprint in [`docs/`](docs/README.md):
 |---|---|---|
 | **01 — Multi-Intent Decomposer** (BERT intent-boundary tagger: data, training, model, inference, decomposition logic) | Fixed — reproduce exactly | `bert_intent_tagger/`, `prototype/decomposition.py`, `prototype/bert_decomposition.py` |
 | **02 — Corpus Retrieval and Fusion** (corpus construction, retrieval, fusion/reranking) | Fixed — reproduce exactly | `prototype/search.py`, `prototype/ingest.py`, `prototype/prepare_models.py`, `prototype/corpus*`, `citefrontier/{models,text,retrieval}.py` |
-| **03–09** — normalization, retrieval controller, session-aware synthesis, live runtime, WebSocket server, upload/benchmark, frontend | Build from blueprint | none |
+| **04 — Retrieval Controller** (WAIT/PROVISIONAL/COMMIT/SUPPRESS timing policy) | Shipped — reference added | `citefrontier/controller.py`, `prototype/controller.py` |
+| **03, 05–09** — normalization, session-aware synthesis, live runtime, WebSocket server, upload/benchmark, frontend | Build from blueprint | none |
 | **10 — schemas + telemetry contracts** | Shipped contracts | `schemas/` |
 
 System guarantees (see [`docs/architecture.md`](docs/architecture.md)):
@@ -48,7 +49,9 @@ System guarantees (see [`docs/architecture.md`](docs/architecture.md)):
    (rebuild the corpus with `python -m prototype.ingest`, provision models with
    `python -m prototype.prepare_models`).
 3. **Build Modules 03–09** from their blueprints, in the order in
-   `docs/README.md`.
+   `docs/README.md`. Completed build modules are shipped as reference code:
+   **Module 04 Retrieval Controller** is already in the repository
+   (`citefrontier/controller.py`, `prototype/controller.py`).
 4. **Verify** against [`docs/testing.md`](docs/testing.md):
    ```powershell
    python -m unittest discover -s prototype/tests -v
@@ -59,10 +62,12 @@ System guarantees (see [`docs/architecture.md`](docs/architecture.md)):
 
 - `bert_intent_tagger/` — Module 01: training scripts, promoted checkpoint,
   results, technical report.
-- `prototype/` — Modules 01–02 reference code (decomposer, BERT boundary
-  inference, retrieval/fusion, corpus builder, corpus, model manifest).
-- `citefrontier/` — Module 02 reference subset (corpus record types, text
-  helpers, retrievers).
+- `prototype/` — Modules 01–02 reference code plus the Module 04 controller
+  (decomposer, BERT boundary inference, retrieval/fusion, corpus builder,
+  corpus, model manifest, `controller.py`).
+- `citefrontier/` — Module 02 reference subset and the Module 04
+  dependency-light controller (corpus record types, text helpers, retrievers,
+  `controller.py`).
 - `schemas/` — wire and telemetry contracts for the build-to-spec modules.
 - `docs/` — the reconstruction blueprints.
 

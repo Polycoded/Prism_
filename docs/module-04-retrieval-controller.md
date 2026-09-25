@@ -1,13 +1,8 @@
 # Module 04 — Retrieval Controller
 
-**STATUS: BUILD.** No code is shipped. Build the retrieval timing policy to
-this spec. Two flavors use the same rules:
-
-- a dependency-light controller (`citefrontier/controller.py`) used by tests
-  and by the core-library engine;
-- a full controller decision used by the live runtime
-  (`prototype/controller.py`), which additionally accounts for
-  refinement/presentation flags computed by Modules 01 and 05.
+**STATUS: SHIPPED — reference implementation added.** The blueprint below
+remains the specification of record; the code may be treated as the reference
+implementation of it.
 
 ## 1. Purpose
 
@@ -15,6 +10,20 @@ Decide **when** retrieval may start from partial transcript text and **when**
 the system must wait or suppress. Tentative candidates may be collected early,
 but they can never synthesize a claim; only the final-event controller decision
 (`commit_retrieve`) permits claim emission.
+
+## 1.1 Reference files (shipped)
+
+| File | Role |
+|---|---|
+| `citefrontier/controller.py` | Dependency-light `RetrievalController` (blueprint §3). |
+| `prototype/controller.py` | Full `decide(...)` decision function used by the live runtime (blueprint §4). |
+| `tests/test_controller.py` | Unit tests for both flavors (blueprint §6). |
+
+Both reuse the shipped shared records in `citefrontier/models.py`
+(`Decision`, `ControllerAction`, `TranscriptEvent`) and the text helpers in
+`citefrontier/text.py` (`content_tokens`, `normalized`,
+`is_presentation_request`, `is_non_retrieval_chitchat`,
+`has_explicit_correction`, `split_intents`).
 
 ## 2. Shared records
 
@@ -82,11 +91,13 @@ The live runtime computes flags first (using Module 01 classifiers and Module
 05 refinement deltas), then calls a `decide` compatible function:
 
 ```
-def decide(*, text, is_final, previous, previous_text, is_format, is_social,
+def decide(*, text, parsed, previous, is_final, is_format, is_social,
            clarification, has_updates, has_additions,
            presentation_prefix_hit) -> (decision: str, reason: str)
 ```
 
+where `parsed` is the current event's decomposed intents and `previous` is the
+prior event's decomposed intents (the runtime maintains that rolling value).
 Rules, in order:
 
 1. `is_format or is_social` → `suppress`, reason `presentation_only` or
@@ -97,8 +108,8 @@ Rules, in order:
 4. `presentation_prefix_hit` → `wait`, reason `possible_presentation_request`.
 5. Partial stability: `stable` = parsed intents from the current text such that
    `i.topic` is non-empty and some previous intent has the same or a missing
-   entity and `set(prev.topic) <= set(i.topic)`. `incomplete` = the text ends
-   with a connective
+   entity and `set(prior.topic) <= set(intent.topic)`. `incomplete` = the text
+   ends with a connective
    (`\b(?:and|or|not|without|between|instead of|rather than|for|in|with)\s*$`,
    case-insensitive). If `stable and not incomplete and len(terms(text)) >= 3`
    → `provisional_retrieve`, reason `stable_searchable_intents`.

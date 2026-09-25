@@ -19,9 +19,15 @@ CiteFrontier components:
     optional for `parser="spacy"`; rank-bm25 + sentence-transformers for the
     dense backend; torch/transformers are in `bert_intent_tagger/requirements.txt`).
 
-Every other module of the system (normalization, retrieval controller,
-session-aware synthesis, live runtime, WebSocket server, upload/benchmark,
-frontend) is **not** shipped here; it is built from the blueprints in
+- **Module 04 — Retrieval Controller (shipped reference):**
+  - `controller.py` — the full `decide(...)` decision function
+    (`prototype.controller.decide`) used by the live runtime; the
+    dependency-light `citefrontier.controller.RetrievalController` lives in
+    the `citefrontier` package.
+
+Every other module of the system (session-aware synthesis, live runtime,
+WebSocket server, upload/benchmark, frontend, normalization) is **not**
+shipped here; it is built from the blueprints in
 [`docs/`](../docs/README.md). The target layout the blueprints produce is
 documented in [`docs/architecture.md`](../docs/architecture.md).
 
